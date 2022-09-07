@@ -7,8 +7,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
    	&& apt-get -y install --no-install-recommends \
-      	# browsers
-      	firefox-esr \
       	# cmd tools 
       	tree \
       	vim \
@@ -28,7 +26,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 RUN su node -c "npm install -g \
    pnpm@7.10.0 \
    firebase-tools@11.2.0 \
-   cypress@10.7.0 \
 "
 
 

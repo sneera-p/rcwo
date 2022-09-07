@@ -19,6 +19,9 @@
 				"editorconfig.editorconfig",
 				"christian-kohler.npm-intellisense",
 				"davidanson.vscode-markdownlint",
+				
+				// svelte
+				"svelte.svelte-vscode",
 
 				// flutter
 				"dart-code.dart-code",
